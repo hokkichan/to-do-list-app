@@ -6,16 +6,16 @@ function TodosComponent() {
   const [currentTodo, setCurrentTodo] = useState("");
   const [todos, setTodos] = useState([
     {
-      todo: "bake a cake",
+      todo: "learn react",
+      isCompleted: false
+    },
+    {
+      todo: "learn node.js",
+      isCompleted: false
+    },
+    {
+      todo: "have coffee",
       isCompleted: true
-    },
-    {
-      todo: "go for a walk",
-      isCompleted: false
-    },
-    {
-      todo: "contribute a web development tutorial on Enlight",
-      isCompleted: false
     }
   ]);
 
